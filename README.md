@@ -8,9 +8,9 @@ __lorem ipsum__
 
 test
 
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+| Actors      | Description | use-case         |
+| :---        |    :----:   |             ---: |
+| Player      |             | Play-Game.md     |
+| Friend      |             | Invite-friend.md |
 
 **AAAAAAAAAAAAAAAAAAAAAAAA**
