@@ -3,7 +3,6 @@
 ## 00-Spelmekanik och regler
 ----------------------------
 -Systemet ska kunna känna igen och hantera när en spelare vinner, förlorar eller när det blir oavgjort.
-
 -Systemet ska tilldela de två sidorna färgerna Svart och vit
 -Systemet ska automatiskt utvärdera brädet efter varje enskilt drag för att kontrollera vinst- och oavgjort-villkor.
 -Systemet ska identifiera och utropa vinst när en spelare uppnår fem stenar i rad (horisontellt, vertikalt eller diagonalt).
