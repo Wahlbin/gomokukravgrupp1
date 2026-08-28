@@ -15,6 +15,7 @@
 -Systemet ska spärra brädet och förhindra ytterligare drag så fort ett parti har avslutats.
 ----------------------------
 
+
 ## 01-Spellägen och meny
 ------------------------
 -Menyn ska innehåla en "spela"-knapp samt ge användaren möjlighet att välja mellan tre spellägen = mot en robot, online eller lokalt ("verkligheten") på samma enhet.
@@ -27,6 +28,7 @@
 -Systemet ska ha en menyfunktion för att avbryta ett pågående parti och återgå till huvudmenyn.
 -Systemet ska ha en funktion för att snabbt starta om (Restart) ett pågående eller avslutat parti.
 ------------------------------------------
+
 
 ## 02-Användarfunktioner och inställningar
 ------------------------------------------
