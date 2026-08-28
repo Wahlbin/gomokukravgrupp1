@@ -1,25 +1,18 @@
+# UC-02: Gör ett drag
 
-```mermaid
-flowchart LR
-    Spelare((Spelare))
+## Beskrivning
+En till två meningar om vad aktören vill uppnå. Inga tekniska lösningar.
 
-    subgraph GomokuSystem [Gomoku]
-        direction TB
-        UC1(Placera sten)
-        UC2(Validera dragets giltighet)
-        UC3(Kontrollera vinst/oavgjort)
-        UC4(Byta tur till nästa spelare)
-        UC5(Ångra drag)
-    end
+## Förutsättningar
+- Vad som måste gälla innan flödet startar.
 
-    %% Spelarens direkta interaktioner
-    Spelare --- UC1
-    Spelare --- UC5
+## Huvudflöde
 
-    %% Saker som måste ske när en sten placeras (Include)
-    UC1 -.->|<< include >>| UC2
-    UC1 -.->|<< include >>| UC3
-    UC1 -.->|<< include >>| UC4
+1. Aktören gör något.
+2. Systemet svarar med något.
+3. ...
 
-    %% Frivillig händelse (Extend)
-    UC5 -.->|<< extend >>| UC1
+## Alternativa flöden
+
+
+
