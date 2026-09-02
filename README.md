@@ -48,15 +48,6 @@ Gomoku är ett strategispel för två spelare på ett **15×15**-rutnät. Spelar
 - Systemet ska inte spara personuppgifter som inte behövs för spelets funktion.
 - Systemet ska kunna starta ett nytt spel utan att tidigare drag påverkar matchen.
 
-## Status
-
-- [x] Funktionella krav
-- [x] Kompletterande krav
-- [ ] Icke-funktionella krav
-- [ ] Begreppsmodell
-- [ ] User journey
-- [ ] Use case-översikt
-- [ ] Detaljerade use cases (UC-01 – UC-03)
 
 ## Team
 
