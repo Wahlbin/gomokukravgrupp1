@@ -32,14 +32,6 @@ Gomoku är ett strategispel för två spelare på ett **15×15**-rutnät. Spelar
 | Anpassning | Spelaren kan byta färg på egna pjäser |
 | Integritet | Anonymt spelande — ingen registrering, spårning eller statistik |
 
-## Use cases
-
-| ID | Namn | Beskrivning |
-|----|------|-------------|
-| [UC-01](docs/requirements/use-cases/UC-01-starta-nytt-parti.md) | Starta nytt parti | Spelaren startar ett nytt spel |
-| [UC-02](docs/requirements/use-cases/UC-02-gor-ett-drag.md) | Göra ett drag | Spelaren placerar en pjäs på brädet |
-| [UC-03](docs/requirements/use-cases/UC-03-bjuda-in-van.md) | Bjuda in vän | Spelaren bjuder in en vän till ett parti |
-
 ## Kompletterande krav (urval)
 
 - Det ska tydligt framgå **vilken spelares tur** det är.
