@@ -1,6 +1,6 @@
 # gomokukravgrupp1
 
-Kravspecifikation för en digital version av Gomoku (fem i rad) — projektarbete i kursen för IT-testare.
+Kravspecifikation för en digital version av Gomoku (fem i rad).
 
 ## Vad som finns i repot
 
