@@ -48,16 +48,6 @@ Gomoku är ett strategispel för två spelare på ett **15×15**-rutnät. Spelar
 - Systemet ska inte spara personuppgifter som inte behövs för spelets funktion.
 - Systemet ska kunna starta ett nytt spel utan att tidigare drag påverkar matchen.
 
-
-## Team
-
-| Namn | Roll |
-|------|------|
-| Albin | _Lägg till roll_ |
-| Vasileios | _Lägg till roll_ |
-| Nicole | _Lägg till roll_ |
-| Jakub | _Lägg till roll_ |
-| Isabella | _Lägg till roll_ |
 ## Licens
 
 [GPL-2.0](LICENSE)
