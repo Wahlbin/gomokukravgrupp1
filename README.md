@@ -1,6 +1,6 @@
 # gomokukravgrupp1
 
-Kravspecifikation för en digital version av Gomoku (fem i rad) — projektarbete i kursen för IT-testare.
+Kravspecifikation för en digital version av Gomoku (fem i rad).
 
 ## Vad som finns i repot
 
@@ -32,14 +32,6 @@ Gomoku är ett strategispel för två spelare på ett **15×15**-rutnät. Spelar
 | Anpassning | Spelaren kan byta färg på egna pjäser |
 | Integritet | Anonymt spelande — ingen registrering, spårning eller statistik |
 
-## Use cases
-
-| ID | Namn | Beskrivning |
-|----|------|-------------|
-| [UC-01](docs/requirements/use-cases/UC-01-starta-nytt-parti.md) | Starta nytt parti | Spelaren startar ett nytt spel |
-| [UC-02](docs/requirements/use-cases/UC-02-gor-ett-drag.md) | Göra ett drag | Spelaren placerar en pjäs på brädet |
-| [UC-03](docs/requirements/use-cases/UC-03-bjuda-in-van.md) | Bjuda in vän | Spelaren bjuder in en vän till ett parti |
-
 ## Kompletterande krav (urval)
 
 - Det ska tydligt framgå **vilken spelares tur** det är.
@@ -48,25 +40,6 @@ Gomoku är ett strategispel för två spelare på ett **15×15**-rutnät. Spelar
 - Systemet ska inte spara personuppgifter som inte behövs för spelets funktion.
 - Systemet ska kunna starta ett nytt spel utan att tidigare drag påverkar matchen.
 
-## Status
-
-- [x] Funktionella krav
-- [x] Kompletterande krav
-- [ ] Icke-funktionella krav
-- [ ] Begreppsmodell
-- [ ] User journey
-- [ ] Use case-översikt
-- [ ] Detaljerade use cases (UC-01 – UC-03)
-
-## Team
-
-| Namn | Roll |
-|------|------|
-| Albin | _Lägg till roll_ |
-| Vasileios | _Lägg till roll_ |
-| Nicole | _Lägg till roll_ |
-| Jakub | _Lägg till roll_ |
-| Isabella | _Lägg till roll_ |
 ## Licens
 
 [GPL-2.0](LICENSE)
