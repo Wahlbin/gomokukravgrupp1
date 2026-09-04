@@ -10,10 +10,10 @@ Att det ska gå att ändra spelets ljudinställningar utifrån varje spelares pr
 - Spelaren befinner sig på spel sidan eller i spelets app.
 
 ## Huvudflöde
-1. Spelaren öppnar huvudmenyn.
-2. Spelaren klickar på "Inställningar" i menyn.
-3. Spelaren klickar på "Ljud inställningar" i inställnings menyn.
-4. Spelaren drar i slidern för att justera spelets ljud nivå utifrån preferens
+1. Spelaren navigerar till ljud/Audio i inställningar
+2. Spelaren får fram en slider som ändrar "master" volym
+3. Spelaren scrollar längre ner för att hitta andra sliders som olika delar av ljudet
+4. Spelaren kan klicka på högtalar-ikonen för att stänga av ljudet helt
 
 ## Alternativa flöden
 - Spelaren skriver manuellt in ljud nivån
