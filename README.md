@@ -13,7 +13,7 @@ Kravspecifikation för en digital version av Gomoku (fem i rad).
 | `docs/requirements/05-begreppsmodell.md` | Begreppsmodell — centrala begrepp och relationer |
 | `docs/requirements/06-user-journey.md` | User journey — användarens väg genom systemet |
 | `docs/requirements/07-use-case-overview.md` | Översikt av samtliga use cases |
-| `docs/requirements/use-cases/` | Detaljerade use cases (UC-01 – UC-03) |
+| `docs/requirements/use-cases/` | Detaljerade use cases (UC-01 – UC-22) |
 
 > Alla kravdokument ligger i `docs/requirements/`. Use cases ligger i `docs/requirements/use-cases/`.
 
