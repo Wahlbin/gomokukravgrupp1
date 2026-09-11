@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Placeholder – inga byggsteg konfigurerade ännu
+        run: echo "Lägg till npm install/build här när applikationskoden (React + Vite) finns i repot."
