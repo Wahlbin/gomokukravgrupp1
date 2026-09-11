@@ -26,3 +26,15 @@ Att starta ett parti där två spelare turas om att spela mot varandra på en oc
 
 ## Resultat
 Ett lokalt flerspelarparti är igång och båda spelarna kan turas om att lägga stenar på samma enhet
+
+## Test Case – UC-08 Spela lokalt flerspelarläge - give when then
+### TC-08a: Starta lokalt tvåspelarparti (huvudflöde)
+Givet att huvudmenyn visas och inget konto krävs
+När en spelare väljer spelläget "lokalt på samma enhet"
+Då ska systemet generera spelrutan och tilldela båda spelarna pjässtenar, med svart som börjar
+Och senast lagda sten ska markeras visuellt efter varje godkänt drag
+
+### TC-08b: Avbryt innan start (alternativt flöde)
+Givet att spelaren håller på att välja spelläge
+När spelaren ångrar sig och navigerar tillbaka till huvudmenyn
+Då ska use caset avslutas utan att något parti startas
