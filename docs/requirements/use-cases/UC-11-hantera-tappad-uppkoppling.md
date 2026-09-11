@@ -25,3 +25,16 @@ Att om en spelare tappar uppkoppling, ska spel servern försöka återuppta den 
 
 ## Resultat
 Servern vet hur den ska hantera tappad anslutning och lämnar rum för att låta spelare återansluta när det går.
+
+## Test Case – UC-11 Hantera tappad uppkoppling - given when then
+### TC-11a: Tillfälligt tappad anslutning återupptas (huvudflöde)
+Givet att två spelare är i ett pågående multiplayer-parti med fungerande uppkoppling
+När en spelare tappar sin uppkoppling
+Då ska servern pausa spelet, meddela motståndaren, och vänta i 30 sekunder på återanslutning
+Och om spelaren återansluter inom tidsgränsen ska spelet fortsätta
+
+### TC-11b: Återanslutning misslyckas (alternativt flöde)
+Givet att servern väntar på att en frånkopplad spelare ska återansluta
+När spelaren inte återansluter inom 30 sekunder
+Då ska båda spelarna meddelas om frånkopplingen
+Och spelet ska avbrytas.
