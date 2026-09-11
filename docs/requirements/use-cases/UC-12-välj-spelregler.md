@@ -23,3 +23,14 @@ Spelaren ska kunna välja mellan traditionella och moderniserade regler, så att
 
 ## Resultat
 Spelarna kan fritt spela utifrån dem spel reglerna som dem föredrar.
+
+## Test Case – UC-12 Välj spelregler - given when then 
+### TC-12a: Byt spelregler (huvudflöde)
+Givet att spelaren befinner sig i starta-spel-menyn med fungerande uppkoppling
+När spelaren klickar "Byt spelregler" och väljer traditionella eller moderniserade regler
+Då ska det valda regelläget aktiveras och menyn stängas.
+
+### TC-12b: Välja samma regler igen (alternativt flöde)
+Givet att spelaren redan har ett valt regelläge
+När spelaren väljer samma regler på nytt
+Då ska ingenting ändras förutom att menyn stängs.
