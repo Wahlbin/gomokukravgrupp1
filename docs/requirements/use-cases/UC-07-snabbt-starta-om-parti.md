@@ -23,3 +23,15 @@ Ett parti är igång eller har precis avslutat (Via vinst, oavgjort eller lämna
 
 ## Resultat
 Ett helt nytt parti har startat omedelbart och är redo för det första draget av en av spelarna på den nya partiet
+
+## Test Case – UC-07 Starta om snabbt - given when then
+### TC-07a: Snabb omstart (huvudflöde)
+Givet att ett parti är igång eller precis har avslutats (vinst, oavgjort eller lämnat)
+När spelaren väljer funktionen för att snabbt starta om
+Då ska spelbrädan nollställas och alla stenar rensas bort
+Och färgerna svart/vit tilldelas på nytt, med svart som gör första draget
+
+### TC-07b: Avbryt istället för omstart (alternativt flöde)
+Givet att spelaren är i ett pågående eller nyss avslutat parti
+När spelaren istället väljer att avbryta helt via menyfunktionen
+Då ska systemet återgå till huvudmenyn utan att starta ett nytt parti.
