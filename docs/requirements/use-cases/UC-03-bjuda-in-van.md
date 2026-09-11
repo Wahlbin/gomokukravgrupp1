@@ -37,3 +37,32 @@ Att kunna skicka en inbjudan till en annan person och koppla ihop båda spelarna
 
 ## Resultat
 Spelaren och vännen är sammankopplade i gemensam lobby eller har startat ett nytt parti Gomoku.
+
+## Test Case – UC-03 Bjuda in vän - given when then
+
+### TC-03a: Vän bjuds in och ansluter (huvudflöde)
+Givet att spelaren befinner sig i huvudmenyn eller en väntelobby med fungerande serveranslutning
+När spelaren klickar på "Bjud in vän" och delar den genererade länken/inbjudan, och vännen accepterar den
+Då ska systemet validera och ansluta vännen till spelarens parti
+Och systemet ska bekräfta visuellt för båda spelarna att de är i samma parti
+
+### TC-03b: Vännen avböjer inbjudan (alternativt flöde 1)
+Givet att en inbjudan har skickats till en vän
+När vännen klickar på "neka" istället för "acceptera"
+Då ska systemet meddela spelaren att inbjudan avböjdes
+
+### TC-03c: Inbjudan löper ut (alternativt flöde 2)
+Givet att en inbjudan har skickats
+När vännen inte svarar inom den förutbestämda tidsgränsen
+Då ska systemet ogiltigförklara inbjudan automatiskt
+
+### TC-03d: Ogiltig eller för gammal länk (alternativt flöde 3)
+Givet att en inbjudningslänk finns
+När någon klickar på en länk som redan använts, är för gammal, eller leder till ett parti som redan startat/är fullt
+Då ska systemet visa ett tydligt felmeddelande och neka anslutning
+
+### TC-03e: Integritet – ingen inloggning krävs för att bjuda in (kopplat till GDPR/anonymt spelande)
+Givet att inloggning är frivilligt enligt kraven
+När en spelare bjuder in en vän via länk utan att vara inloggad på ett konto
+Då ska inbjudan ändå fungera
+Och systemet ska inte kräva eller lagra personuppgifter utöver vad som krävs för att koppla ihop de två spelarna i partiet
