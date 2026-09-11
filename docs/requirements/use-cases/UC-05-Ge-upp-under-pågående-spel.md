@@ -24,3 +24,16 @@ Att det ska gå att ge upp under ett pågående spel för att avbryta.
 
 ## Resultat
 Spelaren kan fritt avsluta ett pågående spel när dem vill, genom att ge upp, vilket avslutar spelet.
+
+## Test Case – UC-05 Ge upp under pågående spel - given when then
+
+### TC-05a: Spelaren ger upp och bekräftar (huvudflöde)
+Givet att spelaren befinner sig i ett pågående spel mot en annan spelare eller en bot, med fungerande anslutning
+När spelaren klickar på "Ge upp" och därefter bekräftar med "Ja" på frågan "Vill du verkligen ge upp?"
+Då ska spelet avslutas
+Och spelaren ska se meddelandet "Du gav upp" medan motståndaren ser "Motståndaren gav upp"
+
+### TC-05b: Spelaren ångrar sig (alternativt flöde)
+Givet att spelaren har klickat på "Ge upp" och fått bekräftelsefrågan
+När spelaren klickar på "Nej"
+Då ska spelet fortsätta som innan, utan att avslutas
