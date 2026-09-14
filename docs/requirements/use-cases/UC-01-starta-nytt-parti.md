@@ -1,11 +1,15 @@
-**Aktör:** Spelare
+# UC-01-starta-nytt-parti
 
-**Mål:** Spelaren vill starta ett nytt Gomoku-parti.
+## Aktör
+Spelare
 
-**Förutsättning:** Spelaren befinner sig i huvudmenyn.
+## Mål 
+Spelaren vill starta ett nytt Gomoku-parti.
 
-**Huvudflöde:**
+## Förutsättning
+Spelaren befinner sig i huvudmenyn.
 
+## Huvudflöde
 1. Spelaren trycker på "Spela".
 2. Systemet visar tillgängliga spellägen.
 3. Spelaren väljer önskat spelläge, exempelvis lokalt, online eller mot robot.
@@ -13,8 +17,8 @@
 5. Systemet skapar ett nytt 15×15-spelbräde.
 6. Systemet visar spelbrädet och gör det möjligt för spelaren att göra sitt första drag.
 
-**Alternativt flöde:**
-
+## Alternativt flöde
 Om spelaren väljer online och ingen motspelare finns tillgänglig, visar systemet att spelaren väntar på en motspelare.
 
-**Resultat:** Ett nytt parti har skapats och spelaren kan börja spela.
+## Resultat
+Ett nytt parti har skapats och spelaren kan börja spela.
