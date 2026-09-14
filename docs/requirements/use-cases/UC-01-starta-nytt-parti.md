@@ -22,3 +22,23 @@ Om spelaren väljer online och ingen motspelare finns tillgänglig, visar system
 
 ## Resultat
 Ett nytt parti har skapats och spelaren kan börja spela.
+
+
+## Test Case
+## Test Case – UC-01 Starta nytt parti
+
+### TC-01a: Spelaren startar ett lokalt parti (huvudflöde)
+Givet att spelaren befinner sig i huvudmenyn
+När spelaren trycker på "Spela" och väljer spelläget "lokalt"
+Då ska systemet skapa ett nytt 15×15-spelbräde
+Och spelaren ska kunna göra sitt första drag
+
+### TC-01b: Spelaren väntar på motspelare online (alternativt flöde)
+Givet att spelaren har valt spelläget "online"
+När ingen motspelare finns tillgänglig
+Då ska systemet visa att spelaren väntar på en motspelare
+
+### TC-01c: GDPR – inget onödigt sparande av personuppgifter
+Givet att spelaren startar ett nytt parti, oavsett spelläge
+När partiet skapas
+Då ska systemet inte begära eller lagra några personuppgifter utöver det som krävs för att partiet ska fungera (t.ex. inget krav på registrering för lokalt/robot-läge)

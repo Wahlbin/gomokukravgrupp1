@@ -38,3 +38,35 @@ Att kunna placera en spelpjäs (sten) på en ledig korsning på spelbrädaet fö
 ## Resultat
 Ett giltigt drag har registrerat och spelbrädan är uppdaterad. Spelets tillstånd har ändrats till antingen vänta på motståndarens drag eller så har spelet avsultats (vid vinst eller oavgjort)
 
+## Test Case – UC-02 Gör ett drag - given when then
+
+### TC-02a: Giltigt drag placeras (huvudflöde)
+Givet att ett spel pågår, det är spelarens tur och minst en position på brädan är ledig
+När spelaren väljer en ledig position inom brädets gränser
+Då ska systemet placera spelarens pjäs på positionen och uppdatera spelbrädan
+Och turen ska överlämnas till motståndaren
+
+### TC-02b: Ogiltigt eller upptaget drag avvisas (alternativt flöde 1)
+Givet att ett spel pågår och det är spelarens tur
+När spelaren väljer en position som redan är upptagen eller utanför brädets gränser
+Då ska systemet vägra placera pjäsen
+Och systemet ska ge visuell eller ljudmässig feedback om att draget är ogiltigt
+Och spelaren ska få försöka igen
+
+### TC-02c: Draget resulterar i vinst (alternativt flöde 2)
+Givet att spelaren gör ett drag som ger fem pjäser i rad
+När draget registreras av systemet
+Då ska systemet markera de vinnande pjäserna och visa ett vinstmeddelande
+Och spelet ska avslutas
+
+### TC-02d: Draget resulterar i oavgjort (alternativt flöde 3)
+Givet att spelbrädan blir full utan att någon spelare fått fem i rad
+När det sista giltiga draget registreras
+Då ska systemet visa ett meddelande om att spelet blev oavgjort
+Och spelet ska avslutas
+
+### TC-02e: Serverside-validering (kopplat till icke-funktionellt krav – säkerhet)
+Givet att en spelare försöker göra ett drag
+När draget skickas till systemet
+Då ska draget alltid valideras på serversidan, oavsett vad klienten skickar
+Och ett ogiltigt drag ska aldrig kunna registreras enbart baserat på klientens uppgifter.

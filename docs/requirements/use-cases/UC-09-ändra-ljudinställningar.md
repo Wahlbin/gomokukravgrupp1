@@ -26,3 +26,25 @@ Att det ska gå att ändra spelets ljudinställningar utifrån varje spelares pr
 
 ## Resultat
 Spelaren kan justera ljud nivån i spelet utifrån sin egen preferens eller känslighet.
+
+
+## Test Case – UC-09 Ändra ljudinställningar - give when then 
+### TC-09a: Justera ljud med slider (huvudflöde)
+Givet att spelaren är i spelets inställningar
+När spelaren navigerar till ljud/Audio och drar i en slider (master eller annan)
+Då ska motsvarande ljudnivå ändras direkt
+
+### TC-09b: Stänga av ljud helt
+Givet att spelaren är i ljudinställningarna
+När spelaren klickar på högtalarikonen
+Då ska allt ljud stängas av
+
+### TC-09c: Manuellt inmatad ljudnivå (alternativt flöde)
+Givet att spelaren vill sätta ett exakt värde
+När spelaren klickar på siffran, den blir redigerbar, och spelaren skriver in ett exakt tal
+Då ska ljudnivån sättas till det angivna värdet
+
+### TC-09d: Återställ till standard (alternativt flöde)
+Givet att spelaren har ändrat ljudinställningarna
+När spelaren klickar på "Återställ inställningar"
+Då ska alla ljudinställningar återgå till default.

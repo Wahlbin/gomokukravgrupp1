@@ -23,4 +23,18 @@ Varje gång en spelare gör ett drag ska servern validera att draget är korrekt
 	2. Servern skickar ett meddelande till spelaren som säger "Ogiltigt drag, försök igen"
 
 ## Resultat
-Spelare kan bara använda drag som är giltiga och många möjligheter att fuska undviks.
+Spelare kan bara använda drag som är giltiga och många möjligheter att fuska kan undvikas.
+
+## Test Case – UC-14 Servervalidering av drag - give when then
+### TC-14a: Giltigt drag valideras server-side (huvudflöde)
+Givet att två inloggade spelare spelar mot varandra med fungerande uppkoppling till servern
+När en spelare gör ett drag
+Då ska draget skickas till servern och valideras där innan det gäller
+Och valideringsresultatet ska skickas tillbaka till båda klienterna
+
+### TC-14b: Ogiltigt eller manipulerat drag avvisas (alternativt flöde)
+Givet att en spelare, eller en manipulerad klient, skickar ett drag som inte är giltigt
+När servern validerar draget
+Då ska servern avvisa draget och visa meddelandet "Ogiltigt drag, försök igen"
+Och draget ska inte registreras i spelets tillstånd.
+
