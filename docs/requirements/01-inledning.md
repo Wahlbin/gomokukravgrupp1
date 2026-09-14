@@ -1,5 +1,8 @@
- Gomoku, även känt som fem-i-rad är ett klassiskt strategispel för två spelare där syftet är att vara först med att placera fem egna brickor i en sammanhängande rad – rakt, lodrätt eller diagonalt – på ett rutnät. I det här  projektet utvecklas en digital, webbaserad version av grupp 1. Vi strävar efter att synliggöra kravfångst som kommer före själva utvecklingsarbetet av spelet. I god samverkan har vi tillsammans arbetat utifrån vårt syfte, att  genom en strukturerad kravfångstprocess lyfta upp och dokumentera de funktionella samt de icke-funktionella krav som spelets förbättring bör utgå ifrån. Vi vill presentera en begreppsmodell,användningsfall och testfall formulerade utifrån kraven.
+1.Inledning:
 
-Vad är syftet? 
+Gomoku, även känt som fem-i-rad är ett klassiskt strategispel för två spelare där syftet är att vara först med att placera fem egna brickor i en sammanhängande rad – rakt, lodrätt eller diagonalt – på ett rutnät. I det här  projektet utvecklas en digital, webbaserad version av grupp 1. Vi strävar efter att synliggöra kravfångst som kommer före själva utvecklingsarbetet av spelet. I god samverkan har vi tillsammans arbetat utifrån vårt syfte, att  genom en strukturerad kravfångstprocess lyfta upp och dokumentera de funktionella samt de icke-funktionella krav som spelets förbättring bör utgå ifrån. Vi vill presentera en begreppsmodell,användningsfall och testfall formulerade utifrån kraven.
 
+1.1 Vad är syftet? 
 Med detta arbete är syftet att beskriva de krav som ligger till grund för vår webbaserade Gomoku-applikation — en digital version av det klassiska strategispelet fem-i-rad. Vårt arbete med all dokumentation fungerar som vår gemensamma utgångspunkt genom hela projektet: det beskriver vad som ska byggas. På så vis kan vi som utvecklar spelet, alltså vi som samverkar och samarbetar kring projektet (både som testare och utvecklare) utgår från gemensam bild av vad som förväntas.
+
+1.2 Projektets omfattning:
