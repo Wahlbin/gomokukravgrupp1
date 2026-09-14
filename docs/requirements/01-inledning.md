@@ -9,7 +9,7 @@ Med detta arbete är syftet att beskriva de krav som ligger till grund för vår
 ## 1.2 Projektets omfattning:
 
 
-## Viktiga begrepp
+## Viktiga begrepp i projektet
 
 | Begrepp | Betydelse |
 |---|---|
@@ -24,7 +24,7 @@ Med detta arbete är syftet att beskriva de krav som ligger till grund för vår
 | GDPR | Dataskyddsförordningen – styr hur personuppgifter får samlas in och hanteras, relevant för bl.a. gästspel och konton |
 | Traceability / Spårbarhet | Att kunna koppla varje krav till motsvarande use case och testfall, så inget krav "glöms bort" |
 
-## Rapportens struktur
+## Projektets struktur
 
 | Avsnitt | Innehåll |
 |---|---|
