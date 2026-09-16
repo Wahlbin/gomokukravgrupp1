@@ -2,7 +2,6 @@
 
 ## 00-Spelmekanik och regler
 ----------------------------
-- Systemet ska kunna känna igen och hantera när en spelare vinner, förlorar eller när det blir oavgjort.
 - Systemet ska tilldela de två sidorna färgerna Svart och vit
 - Systemet ska automatiskt utvärdera brädet efter varje enskilt drag för att kontrollera vinst- och oavgjort-villkor.
 - Systemet ska identifiera och utropa vinst när en spelare uppnår fem stenar i rad (horisontellt, vertikalt eller diagonalt).
@@ -18,8 +17,6 @@
 
 ## 01-Spellägen och meny
 ------------------------
-- Menyn ska innehåla en "spela"-knapp samt ge användaren möjlighet att välja mellan tre spellägen = mot en robot, online eller lokalt ("verkligheten") på samma enhet.
-- När man spelar mot datorn ska systemet erbjuda klickbara alternativ för svårighetsgraderna = "Lätt", "mellan" och "svår".
 - Systemet ska tillhandahålla en huvudmeny där användaren kan välja att starta ett nytt parti.
 - Systemet ska erbjuda ett "Lokalt Flerspelarläge" (Hotseat) där två spelare turas om att lägga stenar på samma enhet.
 - Systemet ska erbjuda ett "Enspelarläge" (Single player) där användaren spelar mot en datorstyrd motståndare.
@@ -32,10 +29,7 @@
 
 ## 02-Användarfunktioner och inställningar
 ------------------------------------------
-- Systemet ska via gränssnittet visuellt och tydligt indikera vems tur det är att spela.
 - Systemet ska visuellt markera den senast lagda stenen (t.ex. med en liten prick på stenen) för att ge spelarna en tydlig överblick över senaste händelsen.
 - Systemet ska, när vinst uppnås, visuellt framhäva den vinnande raden av stenar (genom animation eller markering).
 - Systemet ska ha inställningar för att slå på och av ljud för stenplacering och vinstfanfar.
-- Systemet ska tillåta användare att starta och spela spelet fullt ut utan att behöva regristera ett konto.
-- Systemet ska inte spara vinsthistorik, statistik eller ha någon form av tracking.
 ------------------------------------------
