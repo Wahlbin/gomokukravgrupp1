@@ -1,3 +1,5 @@
+```mermaid
+
 flowchart LR
 
 &#x20;   Player(("Spelare"))
@@ -171,6 +173,8 @@ flowchart LR
 &#x20;   S\_UC5 -.->|"definierar"| O\_UC2
 
 &#x20;   S\_UC5 -.->|"definierar"| O\_UC3
+
+```
 
 
 

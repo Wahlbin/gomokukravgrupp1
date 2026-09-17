@@ -1,3 +1,4 @@
+```mermaid
 journey
     title Spelarens resa genom Gomokus webbplats
     section Landning och samtycke
@@ -17,4 +18,4 @@ journey
       Spela matchen (vinst / oavgjort / ge upp): 4: Spelare
       Se resultatet och eventuella poäng: 5: Spelare
       Återvänd till huvudmenyn: 5: Spelare
-
+```
