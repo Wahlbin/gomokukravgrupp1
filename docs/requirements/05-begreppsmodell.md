@@ -29,12 +29,13 @@ classDiagram
 
     class Seger {
     }
-    
-    class Oavgjort {
-    }
 
     class Förlust {
     }
+
+    class Oavgjort {
+    }
+
 
     class 5iRad["Fem i Rad"] {
     }
@@ -51,10 +52,10 @@ classDiagram
     Tur -- Ruta : sker på
     Spelare -- Sten : spelar med
     Resultat -- Seger : kan vara
-    Resultat -- Oavgjort : kan vara
     Resultat -- Förlust :kan vara
     Seger -- 5iRad : orsakar av
     Seger -- Förlust : medför
+    Resultat -- Oavgjort : kan vara
     5iRad -- Sten : består av
 ```
 ## 5.2 Ordlista
