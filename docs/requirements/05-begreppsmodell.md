@@ -49,11 +49,11 @@ classDiagram
     Ruta -- Sten : kan innehålla
     Tur -- Ruta : sker på
     Tur -- Spelare : utförs av
+    Resultat -- Oavgjort : kan vara
     Resultat -- Seger : kan vara
     Resultat -- Förlust :kan vara
     Seger -- 5iRad : orsakar av
     Seger -- Förlust : medför
-    Resultat -- Oavgjort : kan vara
     5iRad -- Sten : består av
     Spel -- Spelare : deltagare
     Spelare -- Sten : spelar med
