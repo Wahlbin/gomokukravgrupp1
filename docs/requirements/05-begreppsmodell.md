@@ -47,8 +47,8 @@ classDiagram
     Spel -- Tur : består av
     Bräde -- Ruta : består av
     Ruta -- Sten : kan innehålla
-    Tur -- Spelare : utförs av
     Tur -- Ruta : sker på
+    Tur -- Spelare : utförs av
     Resultat -- Seger : kan vara
     Resultat -- Förlust :kan vara
     Seger -- 5iRad : orsakar av
