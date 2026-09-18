@@ -52,8 +52,8 @@ classDiagram
     Resultat -- Oavgjort : kan vara
     Resultat -- Seger : kan vara
     Resultat -- Förlust :kan vara
-    Seger -- 5iRad : orsakar av
     Seger -- Förlust : medför
+    Seger -- 5iRad : orsakar av
     5iRad -- Sten : består av
     Spel -- Spelare : deltagare
     Spelare -- Sten : spelar med
