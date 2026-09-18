@@ -36,6 +36,9 @@ classDiagram
     class Oavgjort {
     }
 
+    class Förlust {
+    }
+
     Spel -- Resultat : får
     Spel -- Spelare : deltagare
     Spel -- Bräde : består av
@@ -49,6 +52,8 @@ classDiagram
     Resultat -- Oavgjort : kan vara
     Seger -- 5iRad : orsakar av
     5iRad -- Sten : består av
+    Seger -- Förlust : medför
+    Resultat -- Förlust :kan vara
 ```
 ## 5.2 Ordlista
 
@@ -57,6 +62,9 @@ Spelplan där spelet genomförs
 
 ##### Fem i rad
 vinstvillkoret uppfylls när fem stenar är placerade i rad, horisontellt, vertikalt, eller diagonalt  
+
+##### Förlust
+Match som slutade med att motståndaren placerade 5 stenar i rad
 
 ##### Oavgjort
 Matchen där ingen av spelare kunde placera 5 stenar i rad
