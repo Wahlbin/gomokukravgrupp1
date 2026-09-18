@@ -29,15 +29,17 @@ classDiagram
 
     class Seger {
     }
-
-    class 5iRad["Fem i Rad"] {
-    }
-
+    
     class Oavgjort {
     }
 
     class Förlust {
     }
+
+    class 5iRad["Fem i Rad"] {
+    }
+
+   
 
     Spel -- Resultat : får
     Spel -- Spelare : deltagare
