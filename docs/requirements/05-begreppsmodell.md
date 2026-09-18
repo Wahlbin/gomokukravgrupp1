@@ -43,20 +43,20 @@ classDiagram
    
 
     Spel -- Resultat : får
-    Spel -- Spelare : deltagare
     Spel -- Bräde : består av
     Spel -- Tur : består av
     Bräde -- Ruta : består av
     Ruta -- Sten : kan innehålla
     Tur -- Spelare : utförs av
     Tur -- Ruta : sker på
-    Spelare -- Sten : spelar med
     Resultat -- Seger : kan vara
     Resultat -- Förlust :kan vara
     Seger -- 5iRad : orsakar av
     Seger -- Förlust : medför
     Resultat -- Oavgjort : kan vara
     5iRad -- Sten : består av
+    Spel -- Spelare : deltagare
+    Spelare -- Sten : spelar med
 ```
 ## 5.2 Ordlista
 
