@@ -3,7 +3,6 @@ Modellen beskriver verksamhetens viktigaste begrepp och visualiserar relationer 
 
 ## 5.1 Klassdiagram
 ```mermaid
-%%{init: {'themeCSS': '.classGroup line { stroke-width: 0px !important; }'}}%%
 classDiagram
     direction TB
 
